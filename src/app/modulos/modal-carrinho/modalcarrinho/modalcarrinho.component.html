@@ -1,0 +1,40 @@
+<div class="container">
+  <div class="title">
+    <h1>Carrinho</h1>
+  </div>
+
+  <div class="item-carrinho" *ngIf="!itemsCarrinho?.length" >
+    <div class="sem-itens">
+      <h2>Não há itens no carrinho</h2>
+    </div>
+  </div>
+    <div class="item-carrinho" *ngFor="let item of itemsCarrinho">
+      <div class="item-carrinho-image">
+        <img src="{{item.produto.fotos[0]}}" alt="imagem do produto">
+      </div>
+      <div class="item-carrinho-descricao">
+        <div class="item-carrinho-descricao-col">
+          nome: {{item.produto.nome}}
+        </div>
+        <div class="item-carrinho-descricao-col">
+          quantiade: {{item.quantidade}}
+        </div>
+        <div class="item-carrinho-descricao-col">
+          subTotal: {{item.subTotal | currency:'R$'}}
+        </div>
+      </div>
+      <div class="item-carrinho-actions">
+        <button mat-raised-button color="primary" (click)='addItemCarrinho(item)'> + </button>
+        <div class="quantidade">{{item.quantidade}}</div>
+        <button *ngIf="item.quantidade>1"  mat-raised-button color="warn" (click)='removeItemCarrinho(item)'> - </button>
+        <button *ngIf="item.quantidade<=1"  mat-raised-button color="warn" (click)='removeItemCarrinho(item)'>
+          <mat-icon >delete</mat-icon>
+        </button>
+      </div>
+    </div>
+
+
+  <div class="total">
+    Total:  {{valorTotal | currency:'R$'}}
+  </div>
+</div>

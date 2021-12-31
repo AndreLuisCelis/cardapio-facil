@@ -1,0 +1,46 @@
+.sidenav-container {
+  height: 100%;
+}
+.link-active{
+  border-left: 10px solid red;
+}
+
+.logo{
+  font-weight: 900;
+  color: #7b1fa2;
+  text-shadow: 0px 0px 5px white;
+  font-size: 2rem;
+  font-family: 'Licorice', cursive;
+}
+
+.sidenav {
+  width: 200px;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.mat-toolbar{
+  .carrinho{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    .itens-carrinho {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      cursor: pointer;
+      mat-icon{
+        font-size: 2rem;
+        margin: 5px;
+      }
+    }
+
+  }
+}
