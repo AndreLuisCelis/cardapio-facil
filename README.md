@@ -1,5 +1,19 @@
 # Carrinho
 
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=angular"/>
+  <img src="https://img.shields.io/static/v1?label=Netlify&message=deploy&color=blue&style=for-the-badge&logo=netlify"/>
+  <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>
+   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM ANDAMENTO&color=GREEN&style=for-the-badge"/>
+</p>
+
+## Deploy da Aplicação :dash:
+> Link do deploy da aplicação: https://cardapio-facil.netlify.app/produtos
+
+------------------------------------------------------------------------------------------
+
+![imagem do projeto](/assets/imgs/bebida2.jpg)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.9.
 
 ## Development server
