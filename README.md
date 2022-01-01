@@ -8,8 +8,7 @@
 </p>
 
 ## Deploy da Aplicação :dash:
-> Link do deploy da aplicação: https://cardapio-facil.netlify.app/produtos
-
+> Link do deploy da aplicação: https://cardapio-facil.netlify.app
 ------------------------------------------------------------------------------------------
 
 ![imagem do projeto](/src/assets/banner.png)
