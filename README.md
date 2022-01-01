@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=angular"/>
   <img src="https://img.shields.io/static/v1?label=Netlify&message=deploy&color=blue&style=for-the-badge&logo=netlify"/>
   <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>
-   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM ANDAMENTO&color=GREEN&style=for-the-badge"/>
+   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM-ANDAMENTO&color=GREEN&style=for-the-badge"/>
 </p>
 
 ## Deploy da Aplicação :dash:
@@ -12,7 +12,13 @@
 
 ------------------------------------------------------------------------------------------
 
-![imagem do projeto](/assets/imgs/bebida2.jpg)
+![imagem do projeto](/src/assets/banner.png)
+
+### Este é um projeto de um simples cardapio  utilizando Angular 11 e RXJS para simular um carrinho de compra com comunição entre componentes utilizando BeharvoSubjects e orientação a objetos com typescript.
+
+### É possivel navegar entre as categorias de produtos e adicionar produtos ao carrinho , é possivel remover itens do carrinho , o sistema faz o calculo do valor total , e também do subtotal quando há mais de um item igual no carrinho.
+
+-------------------------------------------
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.9.
 
